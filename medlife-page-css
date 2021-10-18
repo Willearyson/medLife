@@ -1,0 +1,429 @@
+* {
+    família-fonte : arial;
+}
+corpo {
+    margem : 0 ;
+    preenchimento :  0 ;
+}
+header {
+    display : flex;
+    justificar o conteúdo : centro;
+    altura :  120 px ;
+}
+. container {
+    display : flex;
+    justify-content : espaço entre;
+    largura :  990 px ;
+}
+. logo {
+    display : flex;
+    alinhar-itens : centro;
+}
+. menu {
+    display : flex;
+    alinhar-itens : centro;
+}
+. imglogo {
+    largura :  200 px ;
+}
+nav  ul ,
+nav  li {
+    estilo de lista : nenhum;
+    margem : 0 ;
+    preenchimento :  0 ;
+}
+nav  ul {
+    display : flex;
+}
+nav  a {
+    display : bloco;
+    preenchimento :  15 px ;
+    decoração de texto : nenhum;
+    transformação de texto : maiúsculas;
+    cor : # 727272 ;
+    família da fonte : Arial , Helvetica , sans-serif;
+}
+nav . ativo  a ,
+nav  a : hover {
+    cor de fundo : rgb ( 23 ,  49 ,  92 );
+    cor : branco;
+}
+# banner {
+    display : flex;
+    justificar o conteúdo : centro;
+    imagem de fundo :  url ( '../images/image_02-2.jpg' );
+    posição de fundo : centro;
+    tamanho do fundo : capa;
+    altura :  670 px ;
+}
+. coluna {
+    direção flexível : coluna;
+}
+. textoprincipal {
+    flex : 1 ;
+    display : flex;
+    direção flexível : coluna;
+    justificar o conteúdo : centro;
+}
+. textoprincipal  h1 {
+    cor : # FFF ;
+    tamanho da fonte :  70 px ;
+    sombra do texto : 0 px  1 px  0 px  # 000 ;
+    margem : 0 ;
+    preenchimento :  0 ;
+    largura máxima :  350 px ;
+}
+. textoprincipal  h2 {
+    cor : # FFF ;
+    tamanho da fonte :  22 px ;
+    sombra do texto :  0 px  1 px  0 px  # 000 ;
+    margem :  0 ;
+    preenchimento : 0 ;
+    largura máxima :  350 px ;
+    margem superior :  30 px ;
+}
+. opcoes {
+    altura :  210 px ;
+    display : flex;
+}
+. Area1 , . area2 , . area3 {
+    flex : 1 ;
+    cor : # fff ;
+    preenchimento : 20 px ;
+}
+. area1 {
+    cor de fundo : rgb ( 55 ,  107 ,  192 );
+}
+. area2 {
+    cor de fundo :  rgb ( 40 ,  86 ,  160 );
+}
+. area3 {
+    cor de fundo :  rgb ( 23 ,  49 ,  92 );
+}
+. titulo , . titulo2 , . titulo3 {
+ tamanho da fonte :  21 px ;
+}
+. descri ção1 , . descri CaO2 , . descri ção3 {
+    tamanho da fonte :  12 px ;
+    margem superior :  20 px ;
+    margem inferior :  20 px ;
+}
+. opcoes  a {
+    decoração de texto : nenhum;
+    cor : branco;
+    display : bloco embutido;
+    borda : 1 px sólido;
+    cor da borda : branco;
+    preenchimento :  5 px ;
+    tamanho da fonte :  12 px ;
+}
+. descri ção3 {
+    display : flex;
+    direção flexível : coluna;
+}
+. horario1 ,
+. horario2 ,
+. horario3 {
+    largura :  100 % ;;
+    fonte - tamanho : 14px;
+    preenchimento - bot para m : 5px;
+    b ou der - bot a m : 1px sólido transparente;
+    b ou der - col ou : branco ;
+    display : flex ;
+    justify-content :  espaço entre ;
+}
+. horario2 , . horario3 {
+    margem superior :  30 px ;
+}
+# geral {
+    display : flex;
+    justificar o conteúdo : centro;
+}
+# seção geral  {
+    flex : 2 ;
+}
+# geral  aparte {
+    flex : 1 ;
+}
+. widget_title {
+    margem superior :  30 px ;
+    margem inferior :  20 px ;
+}
+. widget_title_text {
+    cor : preto;
+    tamanho da fonte :  21 px ;
+    peso da fonte : negrito;
+}
+. widget_title_bar {
+    largura :  50 px ;
+    altura :  2 px ;
+    cor de fundo : rgb ( 23 ,  49 ,  92 );
+    margem superior :  10 px ;
+}
+. widget_body {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : espaço entre;
+}
+. widget_body_box {
+    largura :  150 px ;
+    altura :  150 px ;
+    cor de fundo : rgb ( 23 ,  49 ,  92 );
+}
+
+
+. widget_body_box3 , . widget_body_box4 , . widget_body_box5 , . widget_body_box6 {
+    largura :  150 px ;
+    altura :  150 px ;
+    cor de fundo :  rgb ( 23 ,  49 ,  92 );
+    margem superior : 30 px ;
+}
+artigo  a {
+    decoração de texto : nenhum;
+}
+artigo . news_data {
+    display : flex;
+}
+artigo . news_posted_at {
+    cor de fundo :  rgb ( 23 ,  49 ,  92 );
+    cor :  # FFF ;
+    tamanho da fonte :  12 px ;
+    preenchimento :  10 px ;
+}
+artigo . news_coments {
+    cor de fundo :  rgb ( 54 ,  84 ,  133 );
+    cor :  # FFF ;
+    tamanho da fonte :  12 px ;
+    preenchimento :  10 px ;
+    margem esquerda :  2 px ;
+}
+artigo . news_thumbnail {
+    margem superior :  30 px ;
+}
+artigo . news_thumbnail  img {
+    largura : 100 % ;
+    altura : automático;
+}
+artigo . news_title {
+    margem superior :  25 px ;
+    margem inferior :  25 px ;
+    cor : # 000 ;
+    tamanho da fonte :  23 px ;
+}
+artigo . news_resume {
+    tamanho da fonte :  14 px ;
+    cor : # 5c5c5c ;
+    altura da linha :  20 px ;
+    margem inferior :  30 px ;
+}
+. widget_body1 {
+    display : flex;
+    flex-wrap : wrap;
+}
+artigo {
+    flex : 1 ;
+    largura mínima :  250 px ;
+    margem direita :  20 px ;
+}
+rodapé {
+    cor de fundo :  # 1e1e1e ;
+    display : flex;
+    justificar o conteúdo : centro;
+}
+. footer_menu {
+    display : flex;
+    altura :  110 px ;
+    flex : 1 ;
+}
+. fm_1 ,
+. fm_2 ,
+. fm_3 {
+    flex : 1 ;
+    largura :  50 px ;
+    cor :  # FFF ;
+    preenchimento :  20 px ;
+}
+. fm_1 {
+    cor de fundo :  rgb ( 55 ,  107 ,  192 );
+}
+. fm_2 {
+    cor de fundo :  rgb ( 40 ,  86 ,  160 );
+}
+. fm_3 {
+    cor de fundo :  rgb ( 23 ,  49 ,  92 );
+}
+. container_footer {
+    display : flex;
+    justify-content : espaço entre;
+    largura :  990 px ;
+    direção flexível : coluna;
+}
+. footer_area_item {
+    flex : 1 ;
+}
+. footer_area {
+    display : flex;
+    cor :  # FFF ;
+}
+rodapé . widget_title_text {
+    cor :  # FFF ;
+}
+. footer_copy {
+    borda superior : 1 px sólido;
+    border-color :  # 2c2c2c ;
+    altura :  40 px ;
+    altura da linha :  40 px ;
+    cor :  # a19f9f ;
+    tamanho da fonte : 12 px ;
+    margem superior :  30 px ;
+}
+. fm_titulo {
+    tamanho da fonte :  21 px ;
+}
+. fm_descri ção {
+    tamanho da fonte :  12 px ;
+    margem superior :  20 px ;
+    margem inferior :  20 px ;
+}
+. fm_titulo3 {
+    tamanho da fonte :  21 px ;
+}
+. fm_descri ção3 {
+    tamanho da fonte :  12 px ;
+    margem superior :  20 px ;
+    margem inferior :  20 px ;
+}
+rodapé . widget_body {
+    tamanho da fonte :  12 px ;
+    cor : # a19f9f ;
+}
+. Footer_area_item_widget_body {
+    tamanho da fonte :  12 px ;
+    cor : # a19f9f ;
+    margem superior :  20 px ;
+}
+. contatos , . contatos-2 , . contatos-3 {
+    display : flex;
+    justify-content : espaço entre;
+}
+. rua , . rua2 , . rua3 , . telefone , . telefone2 {
+    tamanho da fonte :  12 px ;
+    cor :  # a19f9f ;
+}
+. telefone3 {
+    tamanho da fonte :  12 px ;
+    cor :  # FFF ;
+}
+. telefone , . telefone2 {
+    margem direita :  54 px ;
+}
+. post1 , . pós2 , . post3 {
+    tamanho da fonte :  12 px ;
+    cor : # FFF ;
+    margem esquerda :  20 px ;
+}
+. post1 , . post2 {
+    margem inferior :  28 px ;
+}
+. anos {
+    margem superior :  5 px ;
+    cor : aqua;
+}
+. tweet1 , . tweet2 , . tweet3 {
+    tamanho da fonte :  12 px ;
+    cor : # FFF ;
+    margem esquerda :  20 px ;
+}
+. tweet1 , . tweet2 {
+    margem inferior :  28 px ;
+}
+. menu-mobile {
+    display : nenhum;
+    largura :  40 px ;
+    altura :  40 px ;
+    margem superior :  40 px ;
+    margem inferior :  40 px ;
+    margem direita :  20 px ;
+}
+. mm_line {
+    altura :  3 px ;
+    cor de fundo : rgb ( 55 ,  107 ,  192 );
+}
+@media ( largura mínima : 601 px ) e ( largura máxima : 900 px ) {
+    . horario2 , . horario3 {
+        margem superior :  12 px ;
+    }
+    . widget_body_box : primeiro filho {
+        margem inferior :  30 px ;
+    }
+}
+@media ( largura máxima : 600 px ) {
+
+    . textoprincipal  h1 {
+        tamanho da fonte :  55 px ;
+        preenchimento :  20 px ;
+    }
+    . textoprincipal  h2 {
+        tamanho da fonte :  17 px ;
+        preenchimento :  20 px ;
+    }
+    . opcoes {
+        altura : automático;
+        direção flexível : coluna;
+    }
+    . container {
+        direção flexível : coluna;
+    }
+    # geral  aparte {
+        preenchimento :  20 px ;
+    }
+    # seção geral  {
+        margem superior :  100 px ;
+        preenchimento :  20 px ;
+    }
+    . container_footer {
+        direção flexível : coluna;
+    }
+    . footer_menu {
+        direção flexível : coluna;
+    }
+    . fm_1 , . fm_2 , . fm_3 {
+        largura :  100 % ;
+    }
+    . fm_1 , . fm_2 , . fm_3 {
+        preenchimento :  20 px  20 px  20 px  0 px ;
+    }
+
+    . widget_body_box3 {
+
+    }
+    . footer_area {
+        direção flexível : coluna;
+        preenchimento :  20 px ;
+    }
+    . footer_copy {
+        preenchimento :  20 px ;
+    }
+    cabeçalho . container {
+        direção flexível : fileira;
+    }
+    nav  ul {
+        direção flexível : coluna;
+        display : nenhum;
+        posição : absoluta;
+        esquerda :  0 ;
+        largura :  100 % ;
+        cor de fundo :  # FFF ;
+    }
+    header {
+        altura : automático;
+    }
+    . logo {
+        padding-left :  20 px ;
+    }
+    . menu-mobile {
+        display : flex;
+        direção flexível : coluna;
+        justify-content : space-around;
+    }
+}
